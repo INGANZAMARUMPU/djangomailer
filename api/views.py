@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .serializers import *
 
-# Create your views here.
+class EmailViewset(viewsets.ModelViewSet):
+	queryset = Email.objects.filter(id=0)
+	serializer_class = EmailSerializer
+
