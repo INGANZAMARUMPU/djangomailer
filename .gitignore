@@ -1,0 +1,10 @@
+*.pyc
+
+db.sqlite3
+
+**__pycache__
+
+**/migrations/[0-9]*
+files/*
+static
+*.zip

@@ -1,0 +1,1 @@
+ceci est un API basic qui forward les messages reçu au mails precis
