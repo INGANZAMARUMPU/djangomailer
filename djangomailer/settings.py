@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-kd@*i98zumb6i6ltl1fsgd1^-js+yp&(=mk_yn)1l9oqph5#io
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["hogi.bi"]
 
 
 # Application definition
@@ -97,15 +97,14 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-     "http://localhost:8080",
-     "http://192.168.1.100:8080",
-     "http://*",
-]
+# CORS_ALLOWED_ORIGINS = [
+#      "http://localhost:8080",
+#      "http://*",
+# ]
 
 EMAIL_HOST = "mail.hogi.bi"
 EMAIL_PORT = 465
-EMAIL_HOST_USER = "infos@csdteam.org"
-EMAIL_HOST_PASSWORD = "N&C14_yGDC"
-DEFAULT_FROM_EMAIL = "infos@csdteam.org"
+EMAIL_HOST_USER = "forward@hogi.bi"
+EMAIL_HOST_PASSWORD = "f(qkbTlE!,_?"
+DEFAULT_FROM_EMAIL = "forward@hogi.bi"
 EMAIL_USE_SSL = True
